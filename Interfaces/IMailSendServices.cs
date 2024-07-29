@@ -1,4 +1,4 @@
-﻿using SendMail.Models;
+﻿global using SendMail.Models;
 
 namespace SendMail.Interfaces
 {

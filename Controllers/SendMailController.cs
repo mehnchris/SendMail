@@ -19,7 +19,7 @@ namespace SendMail.Controllers
         }
 
         [HttpPost]
-        //provide action to send email
+        // action to send email
         public async Task<IActionResult> SendEmail([FromForm] MailRequest request)
         {
             try
